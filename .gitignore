@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+
+# Output directory
+dist/
+
+# Temporary directories and files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Webpack specific
+/.cache
+
+# npm package-lock
+package-lock.json
+
+# Optional npm cache directory
+.npm
+
+# Yarn integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output of npm run build
+out/
+
+# persistent chrome user data for webpack dev server
+/.vscode/chrome-user-data/
